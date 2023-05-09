@@ -5,9 +5,8 @@ import Listing from "./Listing Section/Listing";
 import Activity from "./Activity Section/Activity";
 const Body = () => {
   return (
-    <div className="mainContent">
+    <div className="mainContent" id="home">
       <Top />
-
       <div className="bottom flex">
         <Listing />
         <Activity />

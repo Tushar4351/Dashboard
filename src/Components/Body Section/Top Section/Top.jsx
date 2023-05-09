@@ -3,11 +3,11 @@ import { BiSearchAlt } from "react-icons/bi";
 import { TbMessageCircle } from "react-icons/tb";
 import { MdOutlineNotificationsNone } from "react-icons/md";
 import "./top.css";
-import img from "../../../Assets/Admin-image.jpg";
+import img7 from "../../../Assets/Admin-image.jpg";
 import video from "../../../Assets/raining-video.mp4";
 import { BsArrowRightShort } from "react-icons/bs";
 import img2 from "../../../Assets/image-2.png";
-import { BsQuestionCircle } from "react-icons/bs";
+
 
 const Top = () => {
   return (
@@ -27,7 +27,7 @@ const Top = () => {
           <TbMessageCircle className="ico" />
           <MdOutlineNotificationsNone className="ico" />
           <div className="adminImage">
-            <img className="Admin" src={img} alt="Admin Image" />
+            <img className="Admin" src={img7} alt="Admin " />
           </div>
         </div>
       </div>
@@ -67,7 +67,7 @@ const Top = () => {
             </div>
 
             <div className="imgDiv">
-              <img className="lamp" src={img2} alt="Image name" />
+              <img className="lamp" src={img2} alt="lamp" />
             </div>
 
            {/* <div className="sideBarCard">

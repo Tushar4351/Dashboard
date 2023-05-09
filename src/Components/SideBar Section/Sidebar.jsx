@@ -24,25 +24,25 @@ const Sidebar = () => {
 
         <ul className="menuLists grid">
           <li className="listItem">
-            <a href="#" className="menuLink flex">
+            <a href="#home" className="menuLink flex">
               <IoMdSpeedometer className="icon" />
               <span className="smallText">Dash board</span>
             </a>
           </li>
           <li className="listItem">
-            <a href="#" className="menuLink flex">
+            <a href="#home" className="menuLink flex">
               <MdDeliveryDining className="icon" />
               <span className="smallText">My orders</span>
             </a>
           </li>
           <li className="listItem">
-            <a href="#" className="menuLink flex">
+            <a href="#home" className="menuLink flex">
               <MdOutlineExplore className="icon" />
               <span className="smallText">Explore</span>
             </a>
           </li>
           <li className="listItem">
-            <a href="#" className="menuLink flex">
+            <a href="#home" className="menuLink flex">
               <BsTrophy className="icon" />
               <span className="smallText">Products</span>
             </a>
@@ -55,25 +55,25 @@ const Sidebar = () => {
 
         <ul className="menuLists grid">
           <li className="listItem">
-            <a href="#" className="menuLink flex">
+            <a href="#home" className="menuLink flex">
               <AiOutlinePieChart className="icon" />
               <span className="smallText">Charts</span>
             </a>
           </li>
           <li className="listItem">
-            <a href="#" className="menuLink flex">
+            <a href="#home" className="menuLink flex">
               <BiTrendingUp className="icon" />
               <span className="smallText">Trends</span>
             </a>
           </li>
           <li className="listItem">
-            <a href="#" className="menuLink flex">
+            <a href="#home" className="menuLink flex">
               <MdOutlinePermContactCalendar className="icon" />
               <span className="smallText">Contact</span>
             </a>
           </li>
           <li className="listItem">
-            <a href="#" className="menuLink flex">
+            <a href="#home" className="menuLink flex">
               <BsCreditCard2Front className="icon" />
               <span className="smallText">Billing</span>
             </a>
