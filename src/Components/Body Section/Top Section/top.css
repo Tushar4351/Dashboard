@@ -1,0 +1,252 @@
+.topSection .headerSection {
+  justify-content: space-between;
+}
+.headerSection h1 {
+  font-size: var(--h1FontSize);
+  color: var(--blackColor);
+  font-weight: 700;
+}
+.headerSection p {
+  font-size: var(--normalFontSize);
+  color: var(--textColor);
+  font-weight: 500;
+}
+.searchBar {
+  padding: 1rem 2rem;
+  background: var(--whiteColor);
+  border-radius: 5px;
+  gap: 1rem;
+  box-shadow: 0 2px 4px var(--inputColor);
+}
+
+.searchBar input {
+  border: none;
+  outline: none;
+  background: none;
+}
+.ico {
+  color: var(--textColor);
+}
+.ico:hover {
+  color: var(--PrimaryColor);
+}
+.adminDiv {
+  gap: 1rem;
+}
+.ico {
+  font-size: var(--biggestFontSize);
+  background: var(--whiteColor);
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0 2px 4px var(--inputColor);
+  color: var(--textColor);
+}
+.adminImage {
+  border: 3px solid var(--whiteColor);
+  border-radius: 10px;
+  width: 2rem;
+  overflow: hidden;
+  box-shadow: 0 2px 4px var(--inputColor);
+}
+.Admin {
+  width: 100%;
+  height: 100%;
+}
+.cardSection {
+  margin-top: 3rem;
+  gap: 1rem;
+}
+.rightCard {
+  position: relative;
+  flex-basis: 79%;
+  height: 200px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: Center;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.videoDiv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rightCard > :nth-child(1),
+.rightCard > :nth-child(2),
+.btn {
+  z-index: 100;
+}
+.rightCard > :nth-child(1) {
+  font-size: var(--h1FontSize);
+  color: var(--whiteColor);
+  font-weight: 800;
+}
+.rightCard > :nth-child(2) {
+  padding: 1rem;
+  color: var(--paleGreen);
+  font-size: 500;
+}
+.buttons {
+  gap: 1rem;
+}
+.btn {
+  box-shadow: none;
+  padding: 0.8rem 1.5rem;
+  color: var(--PrimaryColor);
+  border: 2px solid transparent;
+}
+.transparent {
+  background: none;
+  border: 2px solid var(--paleGreen);
+  color: var(--paieGreen);
+}
+.transparent:hover {
+  background: var(--paleGreen);
+  color: var(--PrimaryColor);
+}
+
+.leftCard {
+  flex-basis: 50%;
+}
+.main {
+  position: relative;
+  padding: 1rem;
+  height: 200px;
+  border-radius: 1rem;
+  justify-content: space-between;
+}
+.main::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 80%;
+  background: var(--paleGreen);
+  left: 0;
+  bottom: 0;
+  border-radius: 1rem;
+}
+.textDiv {
+  z-index: 100;
+}
+.textDiv > :nth-child(1) {
+  font-size: var(--h1FontSize);
+  padding-bottom: 1rem;
+  color: var(--b1ackColor);
+}
+.textDiv .flex {
+  gap: 1.5rem;
+  font-weight: 500;
+  color: var(--b1ackColor);
+}
+.leftCard .textDiv small {
+    font-size: var(--normalFontSize);
+display: block;
+color: var(--PrimaryColor);
+font-weight: 500;
+padding: .5rem 0;
+  }
+  .link {
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  .link:hover{
+    color: var(--PrimaryColor);
+  }
+.send{
+    background-color: var(--paleGreen);
+    transform: translateX(10px);
+      transition: .3s ease;
+  }
+  .imgDiv{ 
+    transform:translateY(-20px);
+  }
+  .lamp{
+    width: 200px;
+  }
+  
+
+  @media screen and (max-width:990px){
+    .cardSection{
+      flex-direction: column;
+    }
+    .rightCard, .leftCard{
+      width: 100%;
+      flex-basis: 100%;
+    }
+    .leftCard{
+      margin-top: 2rem;
+align-self: flex-start;
+height: 10px ! important;
+    }
+
+  }
+    
+  @media screen and (max-width:918px){
+
+.searchBar{
+display: none;
+}
+
+}
+@media screen and (max-width:725px){
+  .main{
+    width: 100%
+  }
+
+}
+@media screen and (max-width:490px){
+  .main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+    .adminDiv{
+    display: none;
+  }
+  .title{
+    text-align: center;
+    margin: auto;
+  }
+  .rightCard{
+    text-align: center;
+  }
+  .buttons{
+    margin: auto;
+    flex-direction: column;
+  }
+  .btn{
+    width: 100%;
+  }
+
+ 
+  .textDiv{
+    margin-right: 3rem;
+  }
+  .textDiv::before{
+    width: 100% !important;
+  }
+  .imgDiv{
+    display: none;
+  }
+}
+@media screen and (max-width:390px){
+.rightCard{text-align: center;
+padding: 2rem 1rem;}
+
+.rightCard > :nth-child(1){
+  font-size: var(--h2FontSize);
+}
+}
