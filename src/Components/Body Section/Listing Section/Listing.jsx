@@ -20,22 +20,22 @@ const Listing = () => {
       <div className="secContainer flex">
         <div className="singleItem">
           <AiFillHeart className="icon" />
-          <img src={img} alt="image Name" />
+          <img src={img} alt=" Name" />
           <h3>Annual vince</h3>
         </div>
         <div className="singleItem">
           <AiOutlineHeart className="icon" />
-          <img src={img1} alt="image Name" />
+          <img src={img1} alt=" Name" />
           <h3>Annual vince</h3>
         </div>
         <div className="singleItem">
           <AiOutlineHeart className="icon" />
-          <img src={img2} alt="image Name" />
+          <img src={img2} alt=" Name" />
           <h3>Annual vince</h3>
         </div>
         <div className="singleItem">
           <AiFillHeart className="icon" />
-          <img src={img} alt="image Name" />
+          <img src={img} alt="name" />
           <h3>Annual vince</h3>
         </div>
       </div>
@@ -50,10 +50,10 @@ const Listing = () => {
           </div>
           <div className="card flex">
             <div className="users">
-              <img src={img4} alt="User Image" />
-              <img src={img4} alt="User Image" />
-              <img src={img4} alt="User Image" />
-              <img src={img4} alt="User Image" />
+              <img src={img4} alt="User" />
+              <img src={img4} alt="User " />
+              <img src={img4} alt="User" />
+              <img src={img4} alt="User " />
             </div>
             <div className="cardText">
               <span>
@@ -76,10 +76,10 @@ const Listing = () => {
           </div>
           <div className="card flex">
             <div className="users">
-              <img src={img4} alt="User Image" />
-              <img src={img4} alt="User Image" />
-              <img src={img4} alt="User Image" />
-              <img src={img4} alt="User Image" />
+              <img src={img4} alt="User" />
+              <img src={img4} alt="User" />
+              <img src={img4} alt="User" />
+              <img src={img4} alt="User" />
             </div>
             <div className="cardText">
               <span>
